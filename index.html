@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Angular Application</title>
+</head>
+<body>
+
+    <div ng-app="app" class="app">
+        <div ng-controller="ContactController as vm">
+            <ul>
+                <li>
+                    <h4>Name: {{ contact.name }}</h4>
+                    <h6>Phone: {{ contact.phone }}</h6>
+
+                    <a href="">Delete</a>
+                </li>
+            </ul>
+
+            <h2>Add contact</h2>
+
+            <form>
+                <div>
+                    <label>Name</label>
+                    <input />
+                </div>
+
+                <div>
+                    <label>Phone</label>
+                    <input />
+                </div>
+                <button type="submit">Add Contact</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/angular.js"></script>
+    <script src="js/app/app.js"></script>
+    <script src="js/app/controllers/ContactController.js"></script>
+
+</body>
+</html>
