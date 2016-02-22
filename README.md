@@ -23,6 +23,4 @@ We need to link the form inputs up using `ng-model` - attach the name input to t
 
 We should use `ng-submit` on the form to handle submit events (when the user presses enter or clicks the button) - this should call a function that pushes a new contact into our array, using the `name` and `phoneNumber` values in our controller.
 
-Now, we need to test the functionality. Write a test to enter some data into the form, and then press the button to add it. Test that the count of items in the list is now 4, and that the `<h4>` and `<h6>` are the correct values.
-
 We also need to test that deleting works properly. Grab one of the items in the list and click on the link inside of it. Check that the list count is now 3.
