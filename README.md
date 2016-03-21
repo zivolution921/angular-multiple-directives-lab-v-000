@@ -11,6 +11,8 @@
 
 ## Instructions
 
+First off, run `npm install -g express` to install Express on your machine. You'll need this installed for testing this lab.
+
 In this repo, we've got the base of a simple contact list. In this, we've got a list of contacts that we want to show on the page and also be able to delete and add contacts.
 
 Let's make the contacts repeat first. Make the `<li>` item iterate over the contacts array of objects we've got in our `ContactController`.
